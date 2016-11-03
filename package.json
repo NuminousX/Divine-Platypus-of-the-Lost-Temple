@@ -1,0 +1,29 @@
+{
+  "name": "bulletin-board",
+  "version": "1.0.0",
+  "description": "bulletinboard-aka-guestbook",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuminousX/Divine-Platypus-of-the-Lost-Temple.git"
+  },
+  "keywords": [
+    "bullet",
+    "and",
+    "board"
+  ],
+  "author": "yarith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuminousX/Divine-Platypus-of-the-Lost-Temple/issues"
+  },
+  "homepage": "https://github.com/NuminousX/Divine-Platypus-of-the-Lost-Temple#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pg": "^6.1.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
