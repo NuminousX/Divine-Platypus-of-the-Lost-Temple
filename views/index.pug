@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Message
+    link(rel='stylesheet', type='text/css', href='./static/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='./static/style.css')
+  body
+    form(action='/index', method='POST')
+      .row
+        label(for='title') Titel:
+        br
+        input#title(name='title', input='', type='text', value='', size='30')
+        br
+      .row
+        label(for='body') Your message:
+        br
+        textarea#body(name='body', rows='10', cols='40')
+        br
+      input#submit_button(type='submit', value='Post message')

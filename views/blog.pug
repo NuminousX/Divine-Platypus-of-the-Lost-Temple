@@ -1,0 +1,10 @@
+doctype html
+html
+	head
+		title result
+	body
+		h2 Users by name
+		a(href='/') post page
+		each result in data
+			p Title: #{result.title}
+			p Body: #{result.body}
