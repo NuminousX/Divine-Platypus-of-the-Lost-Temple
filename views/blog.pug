@@ -1,10 +1,16 @@
 doctype html
 html
 	head
-		title result
+		title Posted
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
 	body
-		h2 Users by name
-		a(href='/') post page
-		each result in data
-			p Title: #{result.title}
-			p Body: #{result.body}
+		.jumbotron.text-center
+			h1 Welcome User
+			p Bastiaan!!!
+		.container
+			.row
+				.col-md-offset-4
+					each result in data
+						p Title: #{result.title}
+						p Body: #{result.body}
+					a.btn.btn-primary(href='/')  Previous Page 
